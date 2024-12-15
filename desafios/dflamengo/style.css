@@ -36,7 +36,7 @@ header > p {
 }
 
 a {
-    color: white;
+    color: darkred;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -59,8 +59,8 @@ section > p {
 }
 
 section.normal {
-    background-color: white;
-    color: black;
+    background-color: darkred;
+    color: white;
 }
 
 section.imagem {
@@ -81,11 +81,12 @@ section.imagem > p {
 
 section#img01 {
     background-image: url('../dflamengo/imagens/imgfla001.jpg');
+    background-position: right top;
 }
 
-section#img02 {
+section#img02 {background-position: right center;
     background-image: url('../dflamengo/imagens/imgfla002.jpg');
-    background-position: right center;
+    
 }
 
 footer {
