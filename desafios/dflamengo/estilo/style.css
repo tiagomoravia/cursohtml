@@ -80,12 +80,12 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('../dflamengo/imagens/imgfla001.jpg');
+    background-image: url('../imagens/imgfla001.jpg');
     background-position: right top;
 }
 
 section#img02 {background-position: right center;
-    background-image: url('../dflamengo/imagens/imgfla002.jpg');
+    background-image: url('../imagens/imgfla002peq.jpg');
     
 }
 
