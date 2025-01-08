@@ -7,13 +7,15 @@
     <style>
         div.conteiner {
             display: flex;
+            flex-flow: row wrap;
             background-color: lightsalmon;
         }
 
         div.item {
             background-color: lightskyblue;
             border: 1px solid black;
-            flex: auto;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
@@ -22,9 +24,9 @@
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
+        <div class="item" style="order: -3">D</div>
         <div class="item">E</div>
-        <div class="item">F</div>
+        <div class="item" style="order: -1">F</div>
         <div class="item">G</div>
     </div>
 </body>
