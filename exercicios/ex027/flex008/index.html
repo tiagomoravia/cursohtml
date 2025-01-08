@@ -8,7 +8,9 @@
         div.conteiner {
             display: flex;
             flex-flow: row wrap;
+            align-items: flex-start;
             background-color: lightsalmon;
+            height: 400px;
         }
 
         div.item {
@@ -17,12 +19,20 @@
             text-align: center;
             padding: 20px;
         }
+
+        #ia {
+            align-self: center;
+        }
+
+        #ib {
+            align-self: stretch;
+        }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
+        <div class="item" id="ia">A</div>
+        <div class="item" id="ib">B</div>
         <div class="item">C</div>
         <div class="item" style="order: -3">D</div>
         <div class="item">E</div>
